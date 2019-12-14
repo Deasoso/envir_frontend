@@ -1,6 +1,7 @@
 <template>
   <div class="demo-page">
     {{title}}
+    <mt-button type="primary" @click="changename('新名字')">更改导航栏名字</mt-button>
   </div>
 </template>
 
@@ -10,6 +11,12 @@ module.exports = {
     return {
       title: 'MoBan',
       value: [20, 50],
+    }
+  },
+  methods:{
+    changename(inputname){
+      // this.$store.dispatch("settitle", {'name': inputname}); // 异步
+      this.$store.commit("settitle", {'name': inputname}); // 同步
     }
   }
 }

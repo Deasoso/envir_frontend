@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "@/views/HelloWorld.vue";
+import Home from "@/views/Home/home.vue";
 import Page1 from "@/views/page.vue";
 import Page2 from "@/views/page2.vue";
 import newPage from "@/views/newpage.vue";
@@ -9,6 +9,11 @@ Vue.use(Router);
 
 export default new Router({
   routes: [
+    {
+      path: "/",
+      name: "Home",
+      component: Home
+    },
     {
       path: "/Home",
       name: "Home",
