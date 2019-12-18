@@ -5,6 +5,8 @@ import Page1 from "@/views/page.vue";
 import Page2 from "@/views/page2.vue";
 import newPage from "@/views/newpage.vue";
 import personalpage from "@/views/PersonalHomePage/PersonalPage.vue";
+import login from "@/views/loginregister/login.vue";
+import register from "@/views/loginregister/register.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -38,6 +40,16 @@ export default new Router({
       path: "/personal",
       name: "personal",
       component: personalpage
+    },
+    {
+      path: "/login",
+      name: "login",
+      component: login
+    },
+    {
+      path: "/register",
+      name: "register",
+      component: register
     },
   ]
 });
