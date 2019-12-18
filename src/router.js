@@ -4,7 +4,7 @@ import Home from "@/views/Home/home.vue";
 import Page1 from "@/views/page.vue";
 import Page2 from "@/views/page2.vue";
 import newPage from "@/views/newpage.vue";
-
+import personalpage from "@/views/PersonalHomePage/PersonalPage.vue";
 Vue.use(Router);
 
 export default new Router({
@@ -33,6 +33,11 @@ export default new Router({
       path: "/newpage",
       name: "newpage",
       component: newPage
+    },
+    {
+      path: "/personal",
+      name: "personal",
+      component: personalpage
     },
   ]
 });

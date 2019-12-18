@@ -10,9 +10,9 @@
         <img slot="icon" src="../assets/logo.png">
         页面2
       </mt-tab-item>
-      <mt-tab-item id="路线图" @click.native="menuTab('/page2')">
+      <mt-tab-item id="个人中心" @click.native="menuTab('/personal')">
         <img slot="icon" src="../assets/logo.png">
-        页面3
+        个人中心
       </mt-tab-item>
     </mt-tabbar>
   </div>
