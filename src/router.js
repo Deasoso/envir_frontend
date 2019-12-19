@@ -9,9 +9,12 @@ import feedback1 from"@/views/feedback1.vue";
 import personalpage from "@/views/PersonalHomePage/PersonalPage.vue";
 import login from "@/views/loginregister/login.vue";
 import register from "@/views/loginregister/register.vue";
+<<<<<<< Updated upstream
 import orderdetail from "@/views/Order/orderdetail.vue";
 import Orderlist from "@/views/Order/orderlist.vue";
-
+=======
+>>>>>>> Stashed changes
+import Rank from "@/views/Rank/rank.vue";
 
 Vue.use(Router);
 
@@ -67,6 +70,8 @@ export default new Router({
       name: "register",
       component: register
     },
+    {
+<<<<<<< Updated upstream
       path: "/orderlist",
       name: "Orderlist",
       component: Orderlist
@@ -76,6 +81,12 @@ export default new Router({
       name: "orderdetail",
       component: orderdetail
     },
-    
+    {
+=======
+>>>>>>> Stashed changes
+      path: "/rank",
+      name: "Rank",
+      component: Rank
+    },
   ]
 });
