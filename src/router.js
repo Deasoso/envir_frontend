@@ -9,7 +9,6 @@ import feedback1 from"@/views/feedback1.vue";
 import personalpage from "@/views/PersonalHomePage/PersonalPage.vue";
 import login from "@/views/loginregister/login.vue";
 import register from "@/views/loginregister/register.vue";
-<<<<<<< Updated upstream
 import orderdetail from "@/views/Order/orderdetail.vue";
 import Orderlist from "@/views/Order/orderlist.vue";
 import Rank from "@/views/Rank/rank.vue";

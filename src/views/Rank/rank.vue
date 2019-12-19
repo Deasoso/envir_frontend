@@ -29,9 +29,10 @@
 </template>
 
 <script>
-module.exports = {
+export default{
   data() {
     return {
+        selected:'week',
         list:[1,2,3,4,5,6,7,8,9,10],
         weekpic:['https://img2.woyaogexing.com/2019/11/08/611ab8ae1e9f460d99b2bcf2be9c7db5!400x400.jpeg',
         'https://img2.woyaogexing.com/2019/10/22/d52c783a5ab44ff280acc5e5c635fcde!400x400.jpeg',
