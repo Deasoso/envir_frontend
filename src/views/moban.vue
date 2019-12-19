@@ -5,7 +5,7 @@
 </template>
 
 <script>
-module.exports = {
+export default {
   data() {
     return {
       title: 'MoBan',
@@ -17,6 +17,6 @@ module.exports = {
 
 <style scoped>
 .demo-page{
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 </style>

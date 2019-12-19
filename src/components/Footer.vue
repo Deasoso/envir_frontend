@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
 import {Toast} from "mint-ui"
 export default {
   name: "NavigateTabBar",
