@@ -12,8 +12,6 @@ import register from "@/views/loginregister/register.vue";
 <<<<<<< Updated upstream
 import orderdetail from "@/views/Order/orderdetail.vue";
 import Orderlist from "@/views/Order/orderlist.vue";
-=======
->>>>>>> Stashed changes
 import Rank from "@/views/Rank/rank.vue";
 
 Vue.use(Router);
@@ -71,7 +69,6 @@ export default new Router({
       component: register
     },
     {
-<<<<<<< Updated upstream
       path: "/orderlist",
       name: "Orderlist",
       component: Orderlist
@@ -82,8 +79,6 @@ export default new Router({
       component: orderdetail
     },
     {
-=======
->>>>>>> Stashed changes
       path: "/rank",
       name: "Rank",
       component: Rank
