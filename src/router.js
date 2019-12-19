@@ -9,6 +9,10 @@ import feedback1 from"@/views/feedback1.vue";
 import personalpage from "@/views/PersonalHomePage/PersonalPage.vue";
 import login from "@/views/loginregister/login.vue";
 import register from "@/views/loginregister/register.vue";
+import orderdetail from "@/views/Order/orderdetail.vue";
+import Orderlist from "@/views/Order/orderlist.vue";
+
+
 Vue.use(Router);
 
 export default new Router({
@@ -63,5 +67,15 @@ export default new Router({
       name: "register",
       component: register
     },
+      path: "/orderlist",
+      name: "Orderlist",
+      component: Orderlist
+    },
+    {
+      path: "/orderdetail",
+      name: "orderdetail",
+      component: orderdetail
+    },
+    
   ]
 });
