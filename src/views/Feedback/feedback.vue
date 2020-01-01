@@ -77,7 +77,6 @@
 </template>
 
 <script>
-import mage from '../assets/logo.png'
 export default {
   name: 'page-tab-container',
   data() {
