@@ -42,17 +42,15 @@
         <mt-tab-container class="page-tabbar-tab-container" v-model="active" swipeable>
           <mt-tab-container-item id="tab-container1">
             <!-- cell组件 -->
-            <div v-for="n in titlelist">
-              <mt-cell :title= "n.name + '' + n.age"></mt-cell>
+            <div v-for="n in titlelist" v-bind:key="n">
+              <mt-cell :title="n.name + '' + n.age"></mt-cell>
             </div>
           </mt-tab-container-item>
           <mt-tab-container-item id="tab-container2">
-            <!-- cell组件 -->
-            <mt-cell v-for="n in 3" title="tab-container 2"></mt-cell>
+            <mt-cell v-for="n in 3" v-bind:key="n" title="tab-container 2"></mt-cell>
           </mt-tab-container-item>
           <mt-tab-container-item id="tab-container3">
-            <!-- cell组件 -->
-            <mt-cell v-for="n in 3" title="tab-container 3"></mt-cell>
+            <mt-cell v-for="n in 3" v-bind:key="n" title="tab-container 3"></mt-cell>
           </mt-tab-container-item>
         </mt-tab-container>
       </div>
@@ -80,7 +78,6 @@
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
